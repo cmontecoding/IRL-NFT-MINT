@@ -30,7 +30,7 @@ export default function Home() {
     balanceOf,
     {
       contract: contract,
-      owner: account?.address || "",
+      owner: account?.address || "0x0000000000000000000000000000000000000000",
       tokenId: 0n
     }
   )
